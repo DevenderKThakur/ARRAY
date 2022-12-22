@@ -10,17 +10,17 @@ class linearSearch
 		Scanner sc = new Scanner(System.in);
     int t = sc.nextInt();
     for(int i=0;i<n;i++);{
-      int n =sc.nextInt();
-      int a[] = new int[n];
+      int n =sc.nextInt();    // size of the array 
+      int a[] = new int[n];             // creating a array name a[] 
       for(int i=0;i<n;i++){
-          a[i] = sc.nextInt(); 
+          a[i] = sc.nextInt();               // input the value in the array a[]
        }
-      int x = sc.nextInt();
-      for(int i =0'i<n;i++){
-          if(a[i]==x){
+      int x = sc.nextInt();                  // the element to search in the array 
+      for(int i =0;i<n;i++){
+          if(a[i]==x){                        
               System.out.println(i+1);
            }  
-          if(i==n){
+          if(i==n){                                  // if size of the array == index of the loop then element is not present 
              System.out.println("-1");
           }
         }
