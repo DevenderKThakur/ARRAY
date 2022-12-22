@@ -10,14 +10,14 @@ class twoSum
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc = new Scanner(System.in);
-		int nums[] = new int[3];
+		int nums[] = new int[3];                    //  creating the array name called nums[]
 		for(int i=0;i<nums.length;i++){
-		   nums[i] = sc.nextInt();
+		   nums[i] = sc.nextInt();      // 
 		}
 		int target =6;
 		for(int i=0;i<3;i++){
 		   for(int j=i+1;j<3;j++){
-		      if(nums[i]+nums[j]==target){
+		      if(nums[i]+nums[j]==target){            // the logic section 
 		         System.out.println(i+","+j);
 		      }
 		   }
